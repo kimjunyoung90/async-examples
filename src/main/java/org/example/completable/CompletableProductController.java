@@ -18,8 +18,8 @@ import java.util.concurrent.CompletableFuture;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/async/products")
-public class AsyncProductController {
+@RequestMapping("/completable/products")
+public class CompletableProductController {
     private final ProductService productService;
     private final ReviewService reviewService;
     private final StockService stockService;
